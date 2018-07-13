@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6
 h1
 {
   font-weight:700;
-  color:#6d7680
+  color:#3cb46e;
 }
 
 h2,h3
@@ -553,19 +553,17 @@ time
   font-weight:bolder;
   font-size:2.5em;
   line-height:55px;
-  color:#d90006
+  color:#3cb46e;
 }
 
 .user-card p
 {
-  color:#c4c4c4;
-  font-size:small
+  color:black;
 }
 
 .card
 {
-  margin-left:-40px;
-  margin-top:-10px
+  margin-top:30px
 }
 
 .letter p
