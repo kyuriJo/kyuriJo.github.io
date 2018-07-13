@@ -98,7 +98,7 @@ p
   overflow-y:auto;
   z-index:1000;
   margin-top:-4px;
-  border-top:solid #d90006;
+  border-top:solid #3cb46e;
   transition:all .4s ease 0;
   border-width:4px
 }
