@@ -1,7 +1,7 @@
 name: Kyuri Jo
 author: Kyuri Jo
 baseurl: /
-description: Personal webpage of Kyuri Jo
+description: Computational biologist
 github: http://github.com/kyuriJo
 twitter: http://twitter.com/kyuri_jo
 linkedin: http://www.linkedin.com/in/kyuriJo-bioinfo
@@ -10,8 +10,8 @@ email: keialk[at]snu.ac.kr
 ##Make sure to edit the above fields, especially for disqus.
 
 highlighter: pygments
-markdown: redcarpet
-redcarpet:
+markdown: kramdown
+kramdown:
   extensions: ["tables"]
 
 defaults:
