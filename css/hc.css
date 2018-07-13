@@ -318,7 +318,12 @@ pre
   font-weight:100;
   color:#d90006
 }
-
+.row h2 {
+text-align: center;
+font-size: 1.5em;
+font-weight:bold;
+color:black;
+}
 .credit
 {
   bottom:0;
@@ -390,7 +395,7 @@ img
   margin-bottom:30px;
   background-color:#f9f9f9;
   box-shadow:1px 1px 0 1px #e8e8e8;
-  padding:10px 40px 0
+  padding:10px 40px 20px;
 }
 
 .post
