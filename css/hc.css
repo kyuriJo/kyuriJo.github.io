@@ -40,7 +40,9 @@ p
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
   font-weight:200
 }
-
+ul.dot {
+list-style:circle;
+}
 .posts
 {
   font-size:20px;
