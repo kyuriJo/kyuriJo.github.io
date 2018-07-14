@@ -38,7 +38,8 @@ h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover
 p
 {
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
-  font-weight:200
+  font-weight:200;
+  font-size: 1.1em;
 }
 ul.dot {
 list-style:circle;
@@ -543,9 +544,6 @@ time
 {
   font-weight:200;
   font-size:1em
-}
-.proimg {
-  width: 500px;
 }
 .user-card
 {
