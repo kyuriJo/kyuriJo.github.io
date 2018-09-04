@@ -577,7 +577,10 @@ time
 {
   margin-top:30px
 }
-
+.card img
+{
+  width: 200px;
+}
 .letter p
 {
   font-size:1.1em;
