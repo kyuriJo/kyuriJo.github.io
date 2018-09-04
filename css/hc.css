@@ -274,7 +274,10 @@ pre
   text-align:center;
   padding-top:20%
 }
-
+.showcase-text img
+{
+  width: 200px;
+}
 .wide
 {
   width:100%;
