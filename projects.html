@@ -7,24 +7,44 @@ title: Projects
       <h1>Projects</h1>
     </div>
 
-    <div id="article"class="programming">
-      <h2>TRAP</h2>
-      <img class="proimg" src="{{ site.baseurl }}/images/TRAP_diagram.png">
+    <div id="article" class="fashion">
+      <h2>TiClNet</h2>
+      <img class="proimg" src="{{ site.baseurl }}/images/TiClNet_diagram.jpg">
       <table class="table table-hover ">
         <tbody>
           <tr>
             <td valign="top" class="td1">
-              <p class="p2"><span class="s1"><a href="http://biohealth.snu.ac.kr/software/TRAP" target="_blank"><b>Website</b></a></span></p>
+              <p class="p2"><span class="s1"><a href="http://epigenomics.snu.ac.kr/TiClNet" target="_blank"><b>Website</b></a></span></p>
             </td>
             <td valign="top" class="td2">
-              <p class="p2"><span class="s1">TRAP is a pathway analysis tool for time series gene expression data. TRAP estimates statistical values for each pathway that indicates the amount of activation/inhibition, considering the dynamic signaling propagation among genes.</span></p>
+              <p class="p2"><span class="s2">Time series-specific Clustering and Network inference (TiClNet) aims to solve the problems that occur at each step of clustering time series gene expression data as follows:<br>
+1. Selecting the number of clusters Calculating gap statistics to find the optimal number of clusters using an adjusted distance measure for time series (Gaussian process)<br>
+2. Clustering time series Leveraging time point information for datasets with uneven sampling rates and time-to-time dependency <br>
+3. Analysis of the clustering result Construction of a cluster network that shows relationship between clusters by shifted pattern similarity (Shape-Based Distance) and functional similarity (two-group enrichment test)</span></p>
             </td>
           </tr>
         </tbody>
       </table>
     </div>
-
-    <div id="article"class="tech">
+ 
+    <div id="article" class="programming">
+      <h2>Pathway Logic analysis on breast cancer</h2>
+      <img class="proimg" src="{{ site.baseurl }}/images/PL_diagram.jpg">
+      <table class="table table-hover ">
+        <tbody>
+          <tr>
+            <td valign="top" class="td1">
+              <p class="p2"><span class="s1"><a href="http://epigenomics.snu.ac.kr/PL" target="_blank"><b>Website</b></a></span></p>
+            </td>
+            <td valign="top" class="td2">
+              <p class="p2"><span class="s2">Pathway Logic is a rewriting-logic-based formal system for modeling biological pathways including post-translational modifications. Integrating gene expression data on PL system, we constructed subtype-specific path from key receptors (TNFR, TGFBR1 and EGFR) to key transcription factor (TF) regulators (RELA, ATF2, SMAD3 and ELK1) and to downstream genes targeted by TF. Proposed method identified potential pathway crosstalk via TFs in basal-specific paths, which could provide a novel insight on aggressive breast cancer subtypes.</span></p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+ 
+    <div id="article" class="tech">
       <h2>TimeTP</h2>
       <img class="proimg" src="{{ site.baseurl }}/images/TimeTP_diagram.jpg">
       <table class="table table-hover ">
@@ -35,6 +55,23 @@ title: Projects
             </td>
             <td valign="top" class="td2">
               <p class="p2"><span class="s2">TimeTP finds perturbed sub-pathways and their regulators (transcription factors) from time series gene expression data. TimeTP uses cross-correlation to filter gene-gene pairs with similar expression patterns and locate perturbed subpathways. TimeTP performs the labeled influence maximization to find transcription factors that trigger the pathway perturbation. TF-Pathway map in time clock is generated to visualize path from TF to perturbed subpathway with expression propagation along time.</span></p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="article" class="misc">
+      <h2>TRAP</h2>
+      <img class="proimg" src="{{ site.baseurl }}/images/TRAP_diagram.png">
+      <table class="table table-hover ">
+        <tbody>
+          <tr>
+            <td valign="top" class="td1">
+              <p class="p2"><span class="s1"><a href="http://biohealth.snu.ac.kr/software/TRAP" target="_blank"><b>Website</b></a></span></p>
+            </td>
+            <td valign="top" class="td2">
+              <p class="p2"><span class="s1">TRAP is a pathway analysis tool for time series gene expression data. TRAP estimates statistical values for each pathway that indicates the amount of activation/inhibition, considering the dynamic signaling propagation among genes.</span></p>
             </td>
           </tr>
         </tbody>
